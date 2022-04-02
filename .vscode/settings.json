@@ -2,5 +2,9 @@
   "code-runner.executorMap": {
     "typescript": "npx ts-node --files",
    
-  }
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"]
 }
